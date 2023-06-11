@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Google</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for Google logo and search box */
+    .google-logo {
+      max-width: 272px;
+      margin: 200px auto 30px;
+      display: block;
+    }
+
+    .google-search-box {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <div class="google-search-box">
+          <form action="https://www.google.com/search" method="GET" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" name="q" placeholder="Search on Google" aria-label="Search on Google">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
